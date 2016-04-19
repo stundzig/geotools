@@ -399,7 +399,7 @@ public class ShapefileReader implements FileReader {
      * @return True if has next record, false otherwise.
      */
     public boolean hasNext() throws IOException {
-        return this.hasNext(true);
+        return this.hasNext(false);
     }
 
     /**
