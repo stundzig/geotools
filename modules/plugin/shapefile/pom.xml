@@ -165,4 +165,16 @@
     </dependency>
   </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>thirdparty-releases</id>
+            <name>Releases</name>
+            <url>http://build.mapzone.io/nexus/content/repositories/thirdparty/</url>
+        </repository>
+        <snapshotRepository>
+            <id>thirdparty-snapshots</id>
+            <name>Snapshots</name>
+            <url>http://build.mapzone.io/nexus/content/repositories/thirdparty/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
